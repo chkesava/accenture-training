@@ -13,7 +13,6 @@ def is_anagram_or_not(string_1,string_2):
         else:
             string_2_freq[string_2[i]]+=1
     return string_1_freq==string_2_freq
-
 string_1=input()
 string_2=input()
 print(is_anagram_or_not(string_1,string_2))
